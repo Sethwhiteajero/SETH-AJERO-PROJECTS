@@ -1,0 +1,6 @@
+math_grade = float(input("Enter your grade in MATH: "))
+science_grade = float(input("Enter your grade in SCIENCE: "))
+english_grade = float(input("Enter your grade in ENGLISH: "))
+average = (math_grade + science_grade + english_grade) / 3
+
+print("Average: "+ str(average))
